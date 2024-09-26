@@ -1,0 +1,107 @@
+body {
+    background-image: url(hacker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#topnav {
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    word-spacing: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#topnav a{
+    text-decoration: none;
+    overflow:hidden;
+    color: white;
+}
+
+.login h1{
+    text-align: center;
+    color: rgb(211, 46, 211);
+    font-size: 50px;
+    margin-top: -8px;
+}
+
+.hacking h1 {
+    margin-top: -45px;
+    color: white;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hacking input {
+    margin-left: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    transform: translate(-50%, -50%);
+}
+
+.login input {
+    width: 370px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 15px;
+    padding: 8px;
+    color: black;
+}
+
+.username input {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.log-in input{
+    width: 390px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+hr {
+    opacity: 0.4;
+    margin-top: 20px;
+}
+
+.create-account input {
+    height: 50px;
+    width: 150px;
+    margin-left: 30%;
+    border: 1px solid purple;
+    background-color: purple;
+    border-radius: 10px;        
+    color: white;
+}
+
+.logo2 {
+    margin-top: -70px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
